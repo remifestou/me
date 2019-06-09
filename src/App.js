@@ -1,11 +1,16 @@
-import React from 'react';
+import React from 'react'
 import './assets/stylesheets/main.scss'
+
+import Logo from './components/Logo.js'
+import SocialNetwork from './components/SocialNetwork.js'
+import Skills from './containers/Skills.js'
 
 function App() {
   return (
-    <section className="container">
-      <h1>App web de</h1>
-      <span className="icon icon-festou"></span>
+    <section>
+      <Logo />
+      <Skills />
+      <SocialNetwork />
     </section>
   );
 }
