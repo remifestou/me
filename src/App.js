@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/tailwind.css';
+import './tailwind/index.css';
 import './assets/stylesheets/main.scss'
 
 import Logo from './components/Logo.js'
