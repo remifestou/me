@@ -4,19 +4,19 @@ function Skills() {
     let dataSkills = [
         {
             title: "Développement Web",
-            description: "Développeur polyvalent, je réalise le back-end & le front-end avec des frameworks JS comme Express JS pour le back & VueJS ou ReactJS pour le front. Je découvre aussi les autres frameworks des autres langages pour trouver celui qui me plaît le plus.",
+            description: "Développeur polyvalent, je réalise le back-end & le front-end avec des frameworks comme ExpressJS ou Laravel pour le back & VueJS ou ReactJS pour le front. Je découvre aussi d'autres frameworks comme le Ruby on Rails, AngularJS ...",
             color: "white",
             delay: "400"
         },
         {
             title: "UI/UX Design",
-            description: "Je conçois des interfaces utilisateurs tout en pretant attention à l’experience utilisateur. Je fais beaucoup de veille en rapport au design pour moderniser le plus possible les interfaces que je crée.",
+            description: "Je conçois des interfaces utilisateurs tout en prêtant attention à l’expérience utilisateur. Je fais beaucoup de veille en rapport avec le design pour moderniser le plus possible les interfaces que je crée.",
             color: "orange",
             delay: "800"
         },
         {
             title: "Référencement",
-            description: "J’accorde une partie de mon travail sur le respect des règles de référencement naturel et faire en sorte que la visibilité de l’application que j’ai conçu ait une bonne base.",
+            description: "Je consacre une partie de mon travail au respect des règles de référencement naturel pour faire en sorte que l’application que j’ai conçu ait une bonne visibilité.",
             color: "white",
             delay: "1200"
         }
@@ -27,7 +27,7 @@ function Skills() {
             skill.color === "white" ? (
                 <div 
                     key={skill.title}
-                    className="w-ws h-ws bg-white rounded-xxl shadow-ws mb-8 px-8 py-6 -ml-32"
+                    className="w-ws h-ws bg-white rounded-xxl shadow-ws mb-8 px-8 py-6 mr-32"
                     data-aos="flip-up"
                     data-aos-delay={skill.delay}
                 >

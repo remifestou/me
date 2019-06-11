@@ -3,7 +3,7 @@ import React from 'react'
 function Logo() {
     return (
         <span 
-            className="icon -logo icon-festou"
+            className="text-7xl font-black mb-8 -mt-8 icon-festou"
             data-aos="fade-up"
         ></span>
     );
