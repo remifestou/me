@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "tailwind:css":"tailwind build src/assets/stylesheets/tailwind.src.css -c  tailwind.config.js -o src/tailwind/index.css",
+    "tailwind:css": "tailwind build src/assets/stylesheets/tailwind.src.css -c  tailwind.config.js -o src/tailwind/index.css",
     "start": "npm run tailwind:css && react-scripts start",
     "build": "npm run tailwind:css && react-scripts build",
     "test": "npm run tailwind:css && react-scripts test",
