@@ -15,7 +15,9 @@ function App() {
   return (
     <section className="w-full h-screen flex flex-col justify-center items-center">
       <Logo />
-      <Skills />
+      <div className="mb-2">
+        <Skills />
+      </div>
       <div 
         className="flex justify-center items-center"
         data-aos="fade-up"
