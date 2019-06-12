@@ -7,7 +7,7 @@ function Skills() {
             skill.color === "white" ? (
                 <div 
                     key={skill.title}
-                    className="w-ws h-ws bg-white rounded-xxl shadow-ws mb-8 px-8 py-6 mr-32"
+                    className="md:w-ws md:h-ws bg-white rounded-xxl shadow-ws mb-8 px-8 py-6 mr-32 ml-6 md:ml-0"
                     data-aos="flip-up"
                     data-aos-delay={skill.delay}
                 >
@@ -17,7 +17,7 @@ function Skills() {
             ) : (
                 <div 
                     key={skill.title}
-                    className="w-ws h-ws bg-ws rounded-xxl shadow-ws mb-8 px-8 py-6 ml-32"
+                    className="md:w-ws md:h-ws bg-ws rounded-xxl shadow-ws mb-8 px-8 py-6 ml-32 mr-6 md:mr-0"
                     data-aos="flip-down"
                     data-aos-delay={skill.delay}
                 >
