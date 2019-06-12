@@ -1,11 +1,14 @@
 import React from 'react'
+import logo from '../assets/images/logo-me.png'
 
 function Logo() {
     return (
-        <span 
-            className="text-7xl font-black mb-8 -mt-8 icon-festou"
+        <img 
+            src={logo}
+            alt="logo remifestou - orange planet"
+            className="w-32 mb-8 -mt-8"
             data-aos="fade-up"
-        ></span>
+        />
     );
 }
   
