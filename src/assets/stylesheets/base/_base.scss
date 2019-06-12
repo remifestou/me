@@ -1,5 +1,9 @@
 html {
     font-size: 14px;
+
+    @media only screen and (max-width: 640px) {
+        font-size: 12px;
+    }
 }
 
 body {
@@ -23,11 +27,6 @@ a {
 a:focus {
   outline: 0;
   border-color: $link-color;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: $brand-primary;
-    margin: 0;
 }
 
 h1 {
@@ -69,8 +68,6 @@ p + img {
   margin-top: 1.5rem;
 }
 
-.icon.-logo {
-    font-size: 6rem;
-    color: $black;
-    margin-bottom: 32px;
+.transition-ws {
+    transition: all .2s linear;
 }

@@ -12,12 +12,21 @@ module.exports = {
     colors: {
       transparent: 'transparent',
 
-      black: '#000',
       white: '#fff',
       ws: '#DCAB3A',
-      linkedin: '#0077B5',
-      mail: '#B23121',
 
+      black: {
+        100: '#000',
+        200: '#1a1a1a'
+      },
+      linkedin: {
+        100: '#0077B5',
+        200: '#0099e8'
+      },
+      mail: {
+        100: '#B23121',
+        200: '#d8412e'
+      },
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
