@@ -9,17 +9,19 @@ import Logo from './components/Logo.js'
 import SocialNetwork from './components/SocialNetwork.js'
 import Skills from './containers/Skills.js'
 
-AOS.init();
+AOS.init({
+  disable: "mobile"
+});
 
 function App() {
   return (
-    <section className="w-full h-screen flex flex-col justify-center items-center">
+    <section className="w-full h-screen flex flex-col justify-between md:justify-center items-center">
       <Logo />
-      <div className="mb-2">
+      <div className="md:mb-2">
         <Skills />
       </div>
       <div 
-        className="flex justify-center items-center"
+        className="flex justify-center items-center mb-4 md:mt-8"
         data-aos="fade-up"
         data-aos-delay="1600"
       >

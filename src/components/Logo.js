@@ -6,10 +6,10 @@ function Logo() {
         <img 
             src={logo}
             alt="logo remifestou - orange planet"
-            className="w-32 mb-8 -mt-8"
+            className="w-32 mt-4 md:mb-8 md:-mt-8"
             data-aos="fade-up"
         />
     );
 }
   
-export default Logo;
+export default Logo
