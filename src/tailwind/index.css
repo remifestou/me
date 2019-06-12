@@ -649,10 +649,6 @@ video {
   background-color: transparent;
 }
 
-.bg-black {
-  background-color: #000;
-}
-
 .bg-white {
   background-color: #fff;
 }
@@ -661,12 +657,28 @@ video {
   background-color: #DCAB3A;
 }
 
-.bg-linkedin {
+.bg-black-100 {
+  background-color: #000;
+}
+
+.bg-black-200 {
+  background-color: #1a1a1a;
+}
+
+.bg-linkedin-100 {
   background-color: #0077B5;
 }
 
-.bg-mail {
+.bg-linkedin-200 {
+  background-color: #0099e8;
+}
+
+.bg-mail-100 {
   background-color: #B23121;
+}
+
+.bg-mail-200 {
+  background-color: #d8412e;
 }
 
 .bg-gray-100 {
@@ -1033,10 +1045,6 @@ video {
   background-color: transparent;
 }
 
-.hover\:bg-black:hover {
-  background-color: #000;
-}
-
 .hover\:bg-white:hover {
   background-color: #fff;
 }
@@ -1045,12 +1053,28 @@ video {
   background-color: #DCAB3A;
 }
 
-.hover\:bg-linkedin:hover {
+.hover\:bg-black-100:hover {
+  background-color: #000;
+}
+
+.hover\:bg-black-200:hover {
+  background-color: #1a1a1a;
+}
+
+.hover\:bg-linkedin-100:hover {
   background-color: #0077B5;
 }
 
-.hover\:bg-mail:hover {
+.hover\:bg-linkedin-200:hover {
+  background-color: #0099e8;
+}
+
+.hover\:bg-mail-100:hover {
   background-color: #B23121;
+}
+
+.hover\:bg-mail-200:hover {
+  background-color: #d8412e;
 }
 
 .hover\:bg-gray-100:hover {
@@ -1417,10 +1441,6 @@ video {
   background-color: transparent;
 }
 
-.focus\:bg-black:focus {
-  background-color: #000;
-}
-
 .focus\:bg-white:focus {
   background-color: #fff;
 }
@@ -1429,12 +1449,28 @@ video {
   background-color: #DCAB3A;
 }
 
-.focus\:bg-linkedin:focus {
+.focus\:bg-black-100:focus {
+  background-color: #000;
+}
+
+.focus\:bg-black-200:focus {
+  background-color: #1a1a1a;
+}
+
+.focus\:bg-linkedin-100:focus {
   background-color: #0077B5;
 }
 
-.focus\:bg-mail:focus {
+.focus\:bg-linkedin-200:focus {
+  background-color: #0099e8;
+}
+
+.focus\:bg-mail-100:focus {
   background-color: #B23121;
+}
+
+.focus\:bg-mail-200:focus {
+  background-color: #d8412e;
 }
 
 .focus\:bg-gray-100:focus {
@@ -1881,10 +1917,6 @@ video {
   border-color: transparent;
 }
 
-.border-black {
-  border-color: #000;
-}
-
 .border-white {
   border-color: #fff;
 }
@@ -1893,12 +1925,28 @@ video {
   border-color: #DCAB3A;
 }
 
-.border-linkedin {
+.border-black-100 {
+  border-color: #000;
+}
+
+.border-black-200 {
+  border-color: #1a1a1a;
+}
+
+.border-linkedin-100 {
   border-color: #0077B5;
 }
 
-.border-mail {
+.border-linkedin-200 {
+  border-color: #0099e8;
+}
+
+.border-mail-100 {
   border-color: #B23121;
+}
+
+.border-mail-200 {
+  border-color: #d8412e;
 }
 
 .border-gray-100 {
@@ -2265,10 +2313,6 @@ video {
   border-color: transparent;
 }
 
-.hover\:border-black:hover {
-  border-color: #000;
-}
-
 .hover\:border-white:hover {
   border-color: #fff;
 }
@@ -2277,12 +2321,28 @@ video {
   border-color: #DCAB3A;
 }
 
-.hover\:border-linkedin:hover {
+.hover\:border-black-100:hover {
+  border-color: #000;
+}
+
+.hover\:border-black-200:hover {
+  border-color: #1a1a1a;
+}
+
+.hover\:border-linkedin-100:hover {
   border-color: #0077B5;
 }
 
-.hover\:border-mail:hover {
+.hover\:border-linkedin-200:hover {
+  border-color: #0099e8;
+}
+
+.hover\:border-mail-100:hover {
   border-color: #B23121;
+}
+
+.hover\:border-mail-200:hover {
+  border-color: #d8412e;
 }
 
 .hover\:border-gray-100:hover {
@@ -2649,10 +2709,6 @@ video {
   border-color: transparent;
 }
 
-.focus\:border-black:focus {
-  border-color: #000;
-}
-
 .focus\:border-white:focus {
   border-color: #fff;
 }
@@ -2661,12 +2717,28 @@ video {
   border-color: #DCAB3A;
 }
 
-.focus\:border-linkedin:focus {
+.focus\:border-black-100:focus {
+  border-color: #000;
+}
+
+.focus\:border-black-200:focus {
+  border-color: #1a1a1a;
+}
+
+.focus\:border-linkedin-100:focus {
   border-color: #0077B5;
 }
 
-.focus\:border-mail:focus {
+.focus\:border-linkedin-200:focus {
+  border-color: #0099e8;
+}
+
+.focus\:border-mail-100:focus {
   border-color: #B23121;
+}
+
+.focus\:border-mail-200:focus {
+  border-color: #d8412e;
 }
 
 .focus\:border-gray-100:focus {
@@ -6140,10 +6212,6 @@ video {
   color: transparent;
 }
 
-.text-black {
-  color: #000;
-}
-
 .text-white {
   color: #fff;
 }
@@ -6152,12 +6220,28 @@ video {
   color: #DCAB3A;
 }
 
-.text-linkedin {
+.text-black-100 {
+  color: #000;
+}
+
+.text-black-200 {
+  color: #1a1a1a;
+}
+
+.text-linkedin-100 {
   color: #0077B5;
 }
 
-.text-mail {
+.text-linkedin-200 {
+  color: #0099e8;
+}
+
+.text-mail-100 {
   color: #B23121;
+}
+
+.text-mail-200 {
+  color: #d8412e;
 }
 
 .text-gray-100 {
@@ -6524,10 +6608,6 @@ video {
   color: transparent;
 }
 
-.hover\:text-black:hover {
-  color: #000;
-}
-
 .hover\:text-white:hover {
   color: #fff;
 }
@@ -6536,12 +6616,28 @@ video {
   color: #DCAB3A;
 }
 
-.hover\:text-linkedin:hover {
+.hover\:text-black-100:hover {
+  color: #000;
+}
+
+.hover\:text-black-200:hover {
+  color: #1a1a1a;
+}
+
+.hover\:text-linkedin-100:hover {
   color: #0077B5;
 }
 
-.hover\:text-mail:hover {
+.hover\:text-linkedin-200:hover {
+  color: #0099e8;
+}
+
+.hover\:text-mail-100:hover {
   color: #B23121;
+}
+
+.hover\:text-mail-200:hover {
+  color: #d8412e;
 }
 
 .hover\:text-gray-100:hover {
@@ -6908,10 +7004,6 @@ video {
   color: transparent;
 }
 
-.focus\:text-black:focus {
-  color: #000;
-}
-
 .focus\:text-white:focus {
   color: #fff;
 }
@@ -6920,12 +7012,28 @@ video {
   color: #DCAB3A;
 }
 
-.focus\:text-linkedin:focus {
+.focus\:text-black-100:focus {
+  color: #000;
+}
+
+.focus\:text-black-200:focus {
+  color: #1a1a1a;
+}
+
+.focus\:text-linkedin-100:focus {
   color: #0077B5;
 }
 
-.focus\:text-mail:focus {
+.focus\:text-linkedin-200:focus {
+  color: #0099e8;
+}
+
+.focus\:text-mail-100:focus {
   color: #B23121;
+}
+
+.focus\:text-mail-200:focus {
+  color: #d8412e;
 }
 
 .focus\:text-gray-100:focus {
@@ -7772,10 +7880,6 @@ video {
     background-color: transparent;
   }
 
-  .sm\:bg-black {
-    background-color: #000;
-  }
-
   .sm\:bg-white {
     background-color: #fff;
   }
@@ -7784,12 +7888,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .sm\:bg-linkedin {
+  .sm\:bg-black-100 {
+    background-color: #000;
+  }
+
+  .sm\:bg-black-200 {
+    background-color: #1a1a1a;
+  }
+
+  .sm\:bg-linkedin-100 {
     background-color: #0077B5;
   }
 
-  .sm\:bg-mail {
+  .sm\:bg-linkedin-200 {
+    background-color: #0099e8;
+  }
+
+  .sm\:bg-mail-100 {
     background-color: #B23121;
+  }
+
+  .sm\:bg-mail-200 {
+    background-color: #d8412e;
   }
 
   .sm\:bg-gray-100 {
@@ -8156,10 +8276,6 @@ video {
     background-color: transparent;
   }
 
-  .sm\:hover\:bg-black:hover {
-    background-color: #000;
-  }
-
   .sm\:hover\:bg-white:hover {
     background-color: #fff;
   }
@@ -8168,12 +8284,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .sm\:hover\:bg-linkedin:hover {
+  .sm\:hover\:bg-black-100:hover {
+    background-color: #000;
+  }
+
+  .sm\:hover\:bg-black-200:hover {
+    background-color: #1a1a1a;
+  }
+
+  .sm\:hover\:bg-linkedin-100:hover {
     background-color: #0077B5;
   }
 
-  .sm\:hover\:bg-mail:hover {
+  .sm\:hover\:bg-linkedin-200:hover {
+    background-color: #0099e8;
+  }
+
+  .sm\:hover\:bg-mail-100:hover {
     background-color: #B23121;
+  }
+
+  .sm\:hover\:bg-mail-200:hover {
+    background-color: #d8412e;
   }
 
   .sm\:hover\:bg-gray-100:hover {
@@ -8540,10 +8672,6 @@ video {
     background-color: transparent;
   }
 
-  .sm\:focus\:bg-black:focus {
-    background-color: #000;
-  }
-
   .sm\:focus\:bg-white:focus {
     background-color: #fff;
   }
@@ -8552,12 +8680,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .sm\:focus\:bg-linkedin:focus {
+  .sm\:focus\:bg-black-100:focus {
+    background-color: #000;
+  }
+
+  .sm\:focus\:bg-black-200:focus {
+    background-color: #1a1a1a;
+  }
+
+  .sm\:focus\:bg-linkedin-100:focus {
     background-color: #0077B5;
   }
 
-  .sm\:focus\:bg-mail:focus {
+  .sm\:focus\:bg-linkedin-200:focus {
+    background-color: #0099e8;
+  }
+
+  .sm\:focus\:bg-mail-100:focus {
     background-color: #B23121;
+  }
+
+  .sm\:focus\:bg-mail-200:focus {
+    background-color: #d8412e;
   }
 
   .sm\:focus\:bg-gray-100:focus {
@@ -9004,10 +9148,6 @@ video {
     border-color: transparent;
   }
 
-  .sm\:border-black {
-    border-color: #000;
-  }
-
   .sm\:border-white {
     border-color: #fff;
   }
@@ -9016,12 +9156,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .sm\:border-linkedin {
+  .sm\:border-black-100 {
+    border-color: #000;
+  }
+
+  .sm\:border-black-200 {
+    border-color: #1a1a1a;
+  }
+
+  .sm\:border-linkedin-100 {
     border-color: #0077B5;
   }
 
-  .sm\:border-mail {
+  .sm\:border-linkedin-200 {
+    border-color: #0099e8;
+  }
+
+  .sm\:border-mail-100 {
     border-color: #B23121;
+  }
+
+  .sm\:border-mail-200 {
+    border-color: #d8412e;
   }
 
   .sm\:border-gray-100 {
@@ -9388,10 +9544,6 @@ video {
     border-color: transparent;
   }
 
-  .sm\:hover\:border-black:hover {
-    border-color: #000;
-  }
-
   .sm\:hover\:border-white:hover {
     border-color: #fff;
   }
@@ -9400,12 +9552,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .sm\:hover\:border-linkedin:hover {
+  .sm\:hover\:border-black-100:hover {
+    border-color: #000;
+  }
+
+  .sm\:hover\:border-black-200:hover {
+    border-color: #1a1a1a;
+  }
+
+  .sm\:hover\:border-linkedin-100:hover {
     border-color: #0077B5;
   }
 
-  .sm\:hover\:border-mail:hover {
+  .sm\:hover\:border-linkedin-200:hover {
+    border-color: #0099e8;
+  }
+
+  .sm\:hover\:border-mail-100:hover {
     border-color: #B23121;
+  }
+
+  .sm\:hover\:border-mail-200:hover {
+    border-color: #d8412e;
   }
 
   .sm\:hover\:border-gray-100:hover {
@@ -9772,10 +9940,6 @@ video {
     border-color: transparent;
   }
 
-  .sm\:focus\:border-black:focus {
-    border-color: #000;
-  }
-
   .sm\:focus\:border-white:focus {
     border-color: #fff;
   }
@@ -9784,12 +9948,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .sm\:focus\:border-linkedin:focus {
+  .sm\:focus\:border-black-100:focus {
+    border-color: #000;
+  }
+
+  .sm\:focus\:border-black-200:focus {
+    border-color: #1a1a1a;
+  }
+
+  .sm\:focus\:border-linkedin-100:focus {
     border-color: #0077B5;
   }
 
-  .sm\:focus\:border-mail:focus {
+  .sm\:focus\:border-linkedin-200:focus {
+    border-color: #0099e8;
+  }
+
+  .sm\:focus\:border-mail-100:focus {
     border-color: #B23121;
+  }
+
+  .sm\:focus\:border-mail-200:focus {
+    border-color: #d8412e;
   }
 
   .sm\:focus\:border-gray-100:focus {
@@ -13263,10 +13443,6 @@ video {
     color: transparent;
   }
 
-  .sm\:text-black {
-    color: #000;
-  }
-
   .sm\:text-white {
     color: #fff;
   }
@@ -13275,12 +13451,28 @@ video {
     color: #DCAB3A;
   }
 
-  .sm\:text-linkedin {
+  .sm\:text-black-100 {
+    color: #000;
+  }
+
+  .sm\:text-black-200 {
+    color: #1a1a1a;
+  }
+
+  .sm\:text-linkedin-100 {
     color: #0077B5;
   }
 
-  .sm\:text-mail {
+  .sm\:text-linkedin-200 {
+    color: #0099e8;
+  }
+
+  .sm\:text-mail-100 {
     color: #B23121;
+  }
+
+  .sm\:text-mail-200 {
+    color: #d8412e;
   }
 
   .sm\:text-gray-100 {
@@ -13647,10 +13839,6 @@ video {
     color: transparent;
   }
 
-  .sm\:hover\:text-black:hover {
-    color: #000;
-  }
-
   .sm\:hover\:text-white:hover {
     color: #fff;
   }
@@ -13659,12 +13847,28 @@ video {
     color: #DCAB3A;
   }
 
-  .sm\:hover\:text-linkedin:hover {
+  .sm\:hover\:text-black-100:hover {
+    color: #000;
+  }
+
+  .sm\:hover\:text-black-200:hover {
+    color: #1a1a1a;
+  }
+
+  .sm\:hover\:text-linkedin-100:hover {
     color: #0077B5;
   }
 
-  .sm\:hover\:text-mail:hover {
+  .sm\:hover\:text-linkedin-200:hover {
+    color: #0099e8;
+  }
+
+  .sm\:hover\:text-mail-100:hover {
     color: #B23121;
+  }
+
+  .sm\:hover\:text-mail-200:hover {
+    color: #d8412e;
   }
 
   .sm\:hover\:text-gray-100:hover {
@@ -14031,10 +14235,6 @@ video {
     color: transparent;
   }
 
-  .sm\:focus\:text-black:focus {
-    color: #000;
-  }
-
   .sm\:focus\:text-white:focus {
     color: #fff;
   }
@@ -14043,12 +14243,28 @@ video {
     color: #DCAB3A;
   }
 
-  .sm\:focus\:text-linkedin:focus {
+  .sm\:focus\:text-black-100:focus {
+    color: #000;
+  }
+
+  .sm\:focus\:text-black-200:focus {
+    color: #1a1a1a;
+  }
+
+  .sm\:focus\:text-linkedin-100:focus {
     color: #0077B5;
   }
 
-  .sm\:focus\:text-mail:focus {
+  .sm\:focus\:text-linkedin-200:focus {
+    color: #0099e8;
+  }
+
+  .sm\:focus\:text-mail-100:focus {
     color: #B23121;
+  }
+
+  .sm\:focus\:text-mail-200:focus {
+    color: #d8412e;
   }
 
   .sm\:focus\:text-gray-100:focus {
@@ -14896,10 +15112,6 @@ video {
     background-color: transparent;
   }
 
-  .md\:bg-black {
-    background-color: #000;
-  }
-
   .md\:bg-white {
     background-color: #fff;
   }
@@ -14908,12 +15120,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .md\:bg-linkedin {
+  .md\:bg-black-100 {
+    background-color: #000;
+  }
+
+  .md\:bg-black-200 {
+    background-color: #1a1a1a;
+  }
+
+  .md\:bg-linkedin-100 {
     background-color: #0077B5;
   }
 
-  .md\:bg-mail {
+  .md\:bg-linkedin-200 {
+    background-color: #0099e8;
+  }
+
+  .md\:bg-mail-100 {
     background-color: #B23121;
+  }
+
+  .md\:bg-mail-200 {
+    background-color: #d8412e;
   }
 
   .md\:bg-gray-100 {
@@ -15280,10 +15508,6 @@ video {
     background-color: transparent;
   }
 
-  .md\:hover\:bg-black:hover {
-    background-color: #000;
-  }
-
   .md\:hover\:bg-white:hover {
     background-color: #fff;
   }
@@ -15292,12 +15516,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .md\:hover\:bg-linkedin:hover {
+  .md\:hover\:bg-black-100:hover {
+    background-color: #000;
+  }
+
+  .md\:hover\:bg-black-200:hover {
+    background-color: #1a1a1a;
+  }
+
+  .md\:hover\:bg-linkedin-100:hover {
     background-color: #0077B5;
   }
 
-  .md\:hover\:bg-mail:hover {
+  .md\:hover\:bg-linkedin-200:hover {
+    background-color: #0099e8;
+  }
+
+  .md\:hover\:bg-mail-100:hover {
     background-color: #B23121;
+  }
+
+  .md\:hover\:bg-mail-200:hover {
+    background-color: #d8412e;
   }
 
   .md\:hover\:bg-gray-100:hover {
@@ -15664,10 +15904,6 @@ video {
     background-color: transparent;
   }
 
-  .md\:focus\:bg-black:focus {
-    background-color: #000;
-  }
-
   .md\:focus\:bg-white:focus {
     background-color: #fff;
   }
@@ -15676,12 +15912,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .md\:focus\:bg-linkedin:focus {
+  .md\:focus\:bg-black-100:focus {
+    background-color: #000;
+  }
+
+  .md\:focus\:bg-black-200:focus {
+    background-color: #1a1a1a;
+  }
+
+  .md\:focus\:bg-linkedin-100:focus {
     background-color: #0077B5;
   }
 
-  .md\:focus\:bg-mail:focus {
+  .md\:focus\:bg-linkedin-200:focus {
+    background-color: #0099e8;
+  }
+
+  .md\:focus\:bg-mail-100:focus {
     background-color: #B23121;
+  }
+
+  .md\:focus\:bg-mail-200:focus {
+    background-color: #d8412e;
   }
 
   .md\:focus\:bg-gray-100:focus {
@@ -16128,10 +16380,6 @@ video {
     border-color: transparent;
   }
 
-  .md\:border-black {
-    border-color: #000;
-  }
-
   .md\:border-white {
     border-color: #fff;
   }
@@ -16140,12 +16388,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .md\:border-linkedin {
+  .md\:border-black-100 {
+    border-color: #000;
+  }
+
+  .md\:border-black-200 {
+    border-color: #1a1a1a;
+  }
+
+  .md\:border-linkedin-100 {
     border-color: #0077B5;
   }
 
-  .md\:border-mail {
+  .md\:border-linkedin-200 {
+    border-color: #0099e8;
+  }
+
+  .md\:border-mail-100 {
     border-color: #B23121;
+  }
+
+  .md\:border-mail-200 {
+    border-color: #d8412e;
   }
 
   .md\:border-gray-100 {
@@ -16512,10 +16776,6 @@ video {
     border-color: transparent;
   }
 
-  .md\:hover\:border-black:hover {
-    border-color: #000;
-  }
-
   .md\:hover\:border-white:hover {
     border-color: #fff;
   }
@@ -16524,12 +16784,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .md\:hover\:border-linkedin:hover {
+  .md\:hover\:border-black-100:hover {
+    border-color: #000;
+  }
+
+  .md\:hover\:border-black-200:hover {
+    border-color: #1a1a1a;
+  }
+
+  .md\:hover\:border-linkedin-100:hover {
     border-color: #0077B5;
   }
 
-  .md\:hover\:border-mail:hover {
+  .md\:hover\:border-linkedin-200:hover {
+    border-color: #0099e8;
+  }
+
+  .md\:hover\:border-mail-100:hover {
     border-color: #B23121;
+  }
+
+  .md\:hover\:border-mail-200:hover {
+    border-color: #d8412e;
   }
 
   .md\:hover\:border-gray-100:hover {
@@ -16896,10 +17172,6 @@ video {
     border-color: transparent;
   }
 
-  .md\:focus\:border-black:focus {
-    border-color: #000;
-  }
-
   .md\:focus\:border-white:focus {
     border-color: #fff;
   }
@@ -16908,12 +17180,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .md\:focus\:border-linkedin:focus {
+  .md\:focus\:border-black-100:focus {
+    border-color: #000;
+  }
+
+  .md\:focus\:border-black-200:focus {
+    border-color: #1a1a1a;
+  }
+
+  .md\:focus\:border-linkedin-100:focus {
     border-color: #0077B5;
   }
 
-  .md\:focus\:border-mail:focus {
+  .md\:focus\:border-linkedin-200:focus {
+    border-color: #0099e8;
+  }
+
+  .md\:focus\:border-mail-100:focus {
     border-color: #B23121;
+  }
+
+  .md\:focus\:border-mail-200:focus {
+    border-color: #d8412e;
   }
 
   .md\:focus\:border-gray-100:focus {
@@ -20387,10 +20675,6 @@ video {
     color: transparent;
   }
 
-  .md\:text-black {
-    color: #000;
-  }
-
   .md\:text-white {
     color: #fff;
   }
@@ -20399,12 +20683,28 @@ video {
     color: #DCAB3A;
   }
 
-  .md\:text-linkedin {
+  .md\:text-black-100 {
+    color: #000;
+  }
+
+  .md\:text-black-200 {
+    color: #1a1a1a;
+  }
+
+  .md\:text-linkedin-100 {
     color: #0077B5;
   }
 
-  .md\:text-mail {
+  .md\:text-linkedin-200 {
+    color: #0099e8;
+  }
+
+  .md\:text-mail-100 {
     color: #B23121;
+  }
+
+  .md\:text-mail-200 {
+    color: #d8412e;
   }
 
   .md\:text-gray-100 {
@@ -20771,10 +21071,6 @@ video {
     color: transparent;
   }
 
-  .md\:hover\:text-black:hover {
-    color: #000;
-  }
-
   .md\:hover\:text-white:hover {
     color: #fff;
   }
@@ -20783,12 +21079,28 @@ video {
     color: #DCAB3A;
   }
 
-  .md\:hover\:text-linkedin:hover {
+  .md\:hover\:text-black-100:hover {
+    color: #000;
+  }
+
+  .md\:hover\:text-black-200:hover {
+    color: #1a1a1a;
+  }
+
+  .md\:hover\:text-linkedin-100:hover {
     color: #0077B5;
   }
 
-  .md\:hover\:text-mail:hover {
+  .md\:hover\:text-linkedin-200:hover {
+    color: #0099e8;
+  }
+
+  .md\:hover\:text-mail-100:hover {
     color: #B23121;
+  }
+
+  .md\:hover\:text-mail-200:hover {
+    color: #d8412e;
   }
 
   .md\:hover\:text-gray-100:hover {
@@ -21155,10 +21467,6 @@ video {
     color: transparent;
   }
 
-  .md\:focus\:text-black:focus {
-    color: #000;
-  }
-
   .md\:focus\:text-white:focus {
     color: #fff;
   }
@@ -21167,12 +21475,28 @@ video {
     color: #DCAB3A;
   }
 
-  .md\:focus\:text-linkedin:focus {
+  .md\:focus\:text-black-100:focus {
+    color: #000;
+  }
+
+  .md\:focus\:text-black-200:focus {
+    color: #1a1a1a;
+  }
+
+  .md\:focus\:text-linkedin-100:focus {
     color: #0077B5;
   }
 
-  .md\:focus\:text-mail:focus {
+  .md\:focus\:text-linkedin-200:focus {
+    color: #0099e8;
+  }
+
+  .md\:focus\:text-mail-100:focus {
     color: #B23121;
+  }
+
+  .md\:focus\:text-mail-200:focus {
+    color: #d8412e;
   }
 
   .md\:focus\:text-gray-100:focus {
@@ -22020,10 +22344,6 @@ video {
     background-color: transparent;
   }
 
-  .lg\:bg-black {
-    background-color: #000;
-  }
-
   .lg\:bg-white {
     background-color: #fff;
   }
@@ -22032,12 +22352,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .lg\:bg-linkedin {
+  .lg\:bg-black-100 {
+    background-color: #000;
+  }
+
+  .lg\:bg-black-200 {
+    background-color: #1a1a1a;
+  }
+
+  .lg\:bg-linkedin-100 {
     background-color: #0077B5;
   }
 
-  .lg\:bg-mail {
+  .lg\:bg-linkedin-200 {
+    background-color: #0099e8;
+  }
+
+  .lg\:bg-mail-100 {
     background-color: #B23121;
+  }
+
+  .lg\:bg-mail-200 {
+    background-color: #d8412e;
   }
 
   .lg\:bg-gray-100 {
@@ -22404,10 +22740,6 @@ video {
     background-color: transparent;
   }
 
-  .lg\:hover\:bg-black:hover {
-    background-color: #000;
-  }
-
   .lg\:hover\:bg-white:hover {
     background-color: #fff;
   }
@@ -22416,12 +22748,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .lg\:hover\:bg-linkedin:hover {
+  .lg\:hover\:bg-black-100:hover {
+    background-color: #000;
+  }
+
+  .lg\:hover\:bg-black-200:hover {
+    background-color: #1a1a1a;
+  }
+
+  .lg\:hover\:bg-linkedin-100:hover {
     background-color: #0077B5;
   }
 
-  .lg\:hover\:bg-mail:hover {
+  .lg\:hover\:bg-linkedin-200:hover {
+    background-color: #0099e8;
+  }
+
+  .lg\:hover\:bg-mail-100:hover {
     background-color: #B23121;
+  }
+
+  .lg\:hover\:bg-mail-200:hover {
+    background-color: #d8412e;
   }
 
   .lg\:hover\:bg-gray-100:hover {
@@ -22788,10 +23136,6 @@ video {
     background-color: transparent;
   }
 
-  .lg\:focus\:bg-black:focus {
-    background-color: #000;
-  }
-
   .lg\:focus\:bg-white:focus {
     background-color: #fff;
   }
@@ -22800,12 +23144,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .lg\:focus\:bg-linkedin:focus {
+  .lg\:focus\:bg-black-100:focus {
+    background-color: #000;
+  }
+
+  .lg\:focus\:bg-black-200:focus {
+    background-color: #1a1a1a;
+  }
+
+  .lg\:focus\:bg-linkedin-100:focus {
     background-color: #0077B5;
   }
 
-  .lg\:focus\:bg-mail:focus {
+  .lg\:focus\:bg-linkedin-200:focus {
+    background-color: #0099e8;
+  }
+
+  .lg\:focus\:bg-mail-100:focus {
     background-color: #B23121;
+  }
+
+  .lg\:focus\:bg-mail-200:focus {
+    background-color: #d8412e;
   }
 
   .lg\:focus\:bg-gray-100:focus {
@@ -23252,10 +23612,6 @@ video {
     border-color: transparent;
   }
 
-  .lg\:border-black {
-    border-color: #000;
-  }
-
   .lg\:border-white {
     border-color: #fff;
   }
@@ -23264,12 +23620,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .lg\:border-linkedin {
+  .lg\:border-black-100 {
+    border-color: #000;
+  }
+
+  .lg\:border-black-200 {
+    border-color: #1a1a1a;
+  }
+
+  .lg\:border-linkedin-100 {
     border-color: #0077B5;
   }
 
-  .lg\:border-mail {
+  .lg\:border-linkedin-200 {
+    border-color: #0099e8;
+  }
+
+  .lg\:border-mail-100 {
     border-color: #B23121;
+  }
+
+  .lg\:border-mail-200 {
+    border-color: #d8412e;
   }
 
   .lg\:border-gray-100 {
@@ -23636,10 +24008,6 @@ video {
     border-color: transparent;
   }
 
-  .lg\:hover\:border-black:hover {
-    border-color: #000;
-  }
-
   .lg\:hover\:border-white:hover {
     border-color: #fff;
   }
@@ -23648,12 +24016,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .lg\:hover\:border-linkedin:hover {
+  .lg\:hover\:border-black-100:hover {
+    border-color: #000;
+  }
+
+  .lg\:hover\:border-black-200:hover {
+    border-color: #1a1a1a;
+  }
+
+  .lg\:hover\:border-linkedin-100:hover {
     border-color: #0077B5;
   }
 
-  .lg\:hover\:border-mail:hover {
+  .lg\:hover\:border-linkedin-200:hover {
+    border-color: #0099e8;
+  }
+
+  .lg\:hover\:border-mail-100:hover {
     border-color: #B23121;
+  }
+
+  .lg\:hover\:border-mail-200:hover {
+    border-color: #d8412e;
   }
 
   .lg\:hover\:border-gray-100:hover {
@@ -24020,10 +24404,6 @@ video {
     border-color: transparent;
   }
 
-  .lg\:focus\:border-black:focus {
-    border-color: #000;
-  }
-
   .lg\:focus\:border-white:focus {
     border-color: #fff;
   }
@@ -24032,12 +24412,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .lg\:focus\:border-linkedin:focus {
+  .lg\:focus\:border-black-100:focus {
+    border-color: #000;
+  }
+
+  .lg\:focus\:border-black-200:focus {
+    border-color: #1a1a1a;
+  }
+
+  .lg\:focus\:border-linkedin-100:focus {
     border-color: #0077B5;
   }
 
-  .lg\:focus\:border-mail:focus {
+  .lg\:focus\:border-linkedin-200:focus {
+    border-color: #0099e8;
+  }
+
+  .lg\:focus\:border-mail-100:focus {
     border-color: #B23121;
+  }
+
+  .lg\:focus\:border-mail-200:focus {
+    border-color: #d8412e;
   }
 
   .lg\:focus\:border-gray-100:focus {
@@ -27511,10 +27907,6 @@ video {
     color: transparent;
   }
 
-  .lg\:text-black {
-    color: #000;
-  }
-
   .lg\:text-white {
     color: #fff;
   }
@@ -27523,12 +27915,28 @@ video {
     color: #DCAB3A;
   }
 
-  .lg\:text-linkedin {
+  .lg\:text-black-100 {
+    color: #000;
+  }
+
+  .lg\:text-black-200 {
+    color: #1a1a1a;
+  }
+
+  .lg\:text-linkedin-100 {
     color: #0077B5;
   }
 
-  .lg\:text-mail {
+  .lg\:text-linkedin-200 {
+    color: #0099e8;
+  }
+
+  .lg\:text-mail-100 {
     color: #B23121;
+  }
+
+  .lg\:text-mail-200 {
+    color: #d8412e;
   }
 
   .lg\:text-gray-100 {
@@ -27895,10 +28303,6 @@ video {
     color: transparent;
   }
 
-  .lg\:hover\:text-black:hover {
-    color: #000;
-  }
-
   .lg\:hover\:text-white:hover {
     color: #fff;
   }
@@ -27907,12 +28311,28 @@ video {
     color: #DCAB3A;
   }
 
-  .lg\:hover\:text-linkedin:hover {
+  .lg\:hover\:text-black-100:hover {
+    color: #000;
+  }
+
+  .lg\:hover\:text-black-200:hover {
+    color: #1a1a1a;
+  }
+
+  .lg\:hover\:text-linkedin-100:hover {
     color: #0077B5;
   }
 
-  .lg\:hover\:text-mail:hover {
+  .lg\:hover\:text-linkedin-200:hover {
+    color: #0099e8;
+  }
+
+  .lg\:hover\:text-mail-100:hover {
     color: #B23121;
+  }
+
+  .lg\:hover\:text-mail-200:hover {
+    color: #d8412e;
   }
 
   .lg\:hover\:text-gray-100:hover {
@@ -28279,10 +28699,6 @@ video {
     color: transparent;
   }
 
-  .lg\:focus\:text-black:focus {
-    color: #000;
-  }
-
   .lg\:focus\:text-white:focus {
     color: #fff;
   }
@@ -28291,12 +28707,28 @@ video {
     color: #DCAB3A;
   }
 
-  .lg\:focus\:text-linkedin:focus {
+  .lg\:focus\:text-black-100:focus {
+    color: #000;
+  }
+
+  .lg\:focus\:text-black-200:focus {
+    color: #1a1a1a;
+  }
+
+  .lg\:focus\:text-linkedin-100:focus {
     color: #0077B5;
   }
 
-  .lg\:focus\:text-mail:focus {
+  .lg\:focus\:text-linkedin-200:focus {
+    color: #0099e8;
+  }
+
+  .lg\:focus\:text-mail-100:focus {
     color: #B23121;
+  }
+
+  .lg\:focus\:text-mail-200:focus {
+    color: #d8412e;
   }
 
   .lg\:focus\:text-gray-100:focus {
@@ -29144,10 +29576,6 @@ video {
     background-color: transparent;
   }
 
-  .xl\:bg-black {
-    background-color: #000;
-  }
-
   .xl\:bg-white {
     background-color: #fff;
   }
@@ -29156,12 +29584,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .xl\:bg-linkedin {
+  .xl\:bg-black-100 {
+    background-color: #000;
+  }
+
+  .xl\:bg-black-200 {
+    background-color: #1a1a1a;
+  }
+
+  .xl\:bg-linkedin-100 {
     background-color: #0077B5;
   }
 
-  .xl\:bg-mail {
+  .xl\:bg-linkedin-200 {
+    background-color: #0099e8;
+  }
+
+  .xl\:bg-mail-100 {
     background-color: #B23121;
+  }
+
+  .xl\:bg-mail-200 {
+    background-color: #d8412e;
   }
 
   .xl\:bg-gray-100 {
@@ -29528,10 +29972,6 @@ video {
     background-color: transparent;
   }
 
-  .xl\:hover\:bg-black:hover {
-    background-color: #000;
-  }
-
   .xl\:hover\:bg-white:hover {
     background-color: #fff;
   }
@@ -29540,12 +29980,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .xl\:hover\:bg-linkedin:hover {
+  .xl\:hover\:bg-black-100:hover {
+    background-color: #000;
+  }
+
+  .xl\:hover\:bg-black-200:hover {
+    background-color: #1a1a1a;
+  }
+
+  .xl\:hover\:bg-linkedin-100:hover {
     background-color: #0077B5;
   }
 
-  .xl\:hover\:bg-mail:hover {
+  .xl\:hover\:bg-linkedin-200:hover {
+    background-color: #0099e8;
+  }
+
+  .xl\:hover\:bg-mail-100:hover {
     background-color: #B23121;
+  }
+
+  .xl\:hover\:bg-mail-200:hover {
+    background-color: #d8412e;
   }
 
   .xl\:hover\:bg-gray-100:hover {
@@ -29912,10 +30368,6 @@ video {
     background-color: transparent;
   }
 
-  .xl\:focus\:bg-black:focus {
-    background-color: #000;
-  }
-
   .xl\:focus\:bg-white:focus {
     background-color: #fff;
   }
@@ -29924,12 +30376,28 @@ video {
     background-color: #DCAB3A;
   }
 
-  .xl\:focus\:bg-linkedin:focus {
+  .xl\:focus\:bg-black-100:focus {
+    background-color: #000;
+  }
+
+  .xl\:focus\:bg-black-200:focus {
+    background-color: #1a1a1a;
+  }
+
+  .xl\:focus\:bg-linkedin-100:focus {
     background-color: #0077B5;
   }
 
-  .xl\:focus\:bg-mail:focus {
+  .xl\:focus\:bg-linkedin-200:focus {
+    background-color: #0099e8;
+  }
+
+  .xl\:focus\:bg-mail-100:focus {
     background-color: #B23121;
+  }
+
+  .xl\:focus\:bg-mail-200:focus {
+    background-color: #d8412e;
   }
 
   .xl\:focus\:bg-gray-100:focus {
@@ -30376,10 +30844,6 @@ video {
     border-color: transparent;
   }
 
-  .xl\:border-black {
-    border-color: #000;
-  }
-
   .xl\:border-white {
     border-color: #fff;
   }
@@ -30388,12 +30852,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .xl\:border-linkedin {
+  .xl\:border-black-100 {
+    border-color: #000;
+  }
+
+  .xl\:border-black-200 {
+    border-color: #1a1a1a;
+  }
+
+  .xl\:border-linkedin-100 {
     border-color: #0077B5;
   }
 
-  .xl\:border-mail {
+  .xl\:border-linkedin-200 {
+    border-color: #0099e8;
+  }
+
+  .xl\:border-mail-100 {
     border-color: #B23121;
+  }
+
+  .xl\:border-mail-200 {
+    border-color: #d8412e;
   }
 
   .xl\:border-gray-100 {
@@ -30760,10 +31240,6 @@ video {
     border-color: transparent;
   }
 
-  .xl\:hover\:border-black:hover {
-    border-color: #000;
-  }
-
   .xl\:hover\:border-white:hover {
     border-color: #fff;
   }
@@ -30772,12 +31248,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .xl\:hover\:border-linkedin:hover {
+  .xl\:hover\:border-black-100:hover {
+    border-color: #000;
+  }
+
+  .xl\:hover\:border-black-200:hover {
+    border-color: #1a1a1a;
+  }
+
+  .xl\:hover\:border-linkedin-100:hover {
     border-color: #0077B5;
   }
 
-  .xl\:hover\:border-mail:hover {
+  .xl\:hover\:border-linkedin-200:hover {
+    border-color: #0099e8;
+  }
+
+  .xl\:hover\:border-mail-100:hover {
     border-color: #B23121;
+  }
+
+  .xl\:hover\:border-mail-200:hover {
+    border-color: #d8412e;
   }
 
   .xl\:hover\:border-gray-100:hover {
@@ -31144,10 +31636,6 @@ video {
     border-color: transparent;
   }
 
-  .xl\:focus\:border-black:focus {
-    border-color: #000;
-  }
-
   .xl\:focus\:border-white:focus {
     border-color: #fff;
   }
@@ -31156,12 +31644,28 @@ video {
     border-color: #DCAB3A;
   }
 
-  .xl\:focus\:border-linkedin:focus {
+  .xl\:focus\:border-black-100:focus {
+    border-color: #000;
+  }
+
+  .xl\:focus\:border-black-200:focus {
+    border-color: #1a1a1a;
+  }
+
+  .xl\:focus\:border-linkedin-100:focus {
     border-color: #0077B5;
   }
 
-  .xl\:focus\:border-mail:focus {
+  .xl\:focus\:border-linkedin-200:focus {
+    border-color: #0099e8;
+  }
+
+  .xl\:focus\:border-mail-100:focus {
     border-color: #B23121;
+  }
+
+  .xl\:focus\:border-mail-200:focus {
+    border-color: #d8412e;
   }
 
   .xl\:focus\:border-gray-100:focus {
@@ -34635,10 +35139,6 @@ video {
     color: transparent;
   }
 
-  .xl\:text-black {
-    color: #000;
-  }
-
   .xl\:text-white {
     color: #fff;
   }
@@ -34647,12 +35147,28 @@ video {
     color: #DCAB3A;
   }
 
-  .xl\:text-linkedin {
+  .xl\:text-black-100 {
+    color: #000;
+  }
+
+  .xl\:text-black-200 {
+    color: #1a1a1a;
+  }
+
+  .xl\:text-linkedin-100 {
     color: #0077B5;
   }
 
-  .xl\:text-mail {
+  .xl\:text-linkedin-200 {
+    color: #0099e8;
+  }
+
+  .xl\:text-mail-100 {
     color: #B23121;
+  }
+
+  .xl\:text-mail-200 {
+    color: #d8412e;
   }
 
   .xl\:text-gray-100 {
@@ -35019,10 +35535,6 @@ video {
     color: transparent;
   }
 
-  .xl\:hover\:text-black:hover {
-    color: #000;
-  }
-
   .xl\:hover\:text-white:hover {
     color: #fff;
   }
@@ -35031,12 +35543,28 @@ video {
     color: #DCAB3A;
   }
 
-  .xl\:hover\:text-linkedin:hover {
+  .xl\:hover\:text-black-100:hover {
+    color: #000;
+  }
+
+  .xl\:hover\:text-black-200:hover {
+    color: #1a1a1a;
+  }
+
+  .xl\:hover\:text-linkedin-100:hover {
     color: #0077B5;
   }
 
-  .xl\:hover\:text-mail:hover {
+  .xl\:hover\:text-linkedin-200:hover {
+    color: #0099e8;
+  }
+
+  .xl\:hover\:text-mail-100:hover {
     color: #B23121;
+  }
+
+  .xl\:hover\:text-mail-200:hover {
+    color: #d8412e;
   }
 
   .xl\:hover\:text-gray-100:hover {
@@ -35403,10 +35931,6 @@ video {
     color: transparent;
   }
 
-  .xl\:focus\:text-black:focus {
-    color: #000;
-  }
-
   .xl\:focus\:text-white:focus {
     color: #fff;
   }
@@ -35415,12 +35939,28 @@ video {
     color: #DCAB3A;
   }
 
-  .xl\:focus\:text-linkedin:focus {
+  .xl\:focus\:text-black-100:focus {
+    color: #000;
+  }
+
+  .xl\:focus\:text-black-200:focus {
+    color: #1a1a1a;
+  }
+
+  .xl\:focus\:text-linkedin-100:focus {
     color: #0077B5;
   }
 
-  .xl\:focus\:text-mail:focus {
+  .xl\:focus\:text-linkedin-200:focus {
+    color: #0099e8;
+  }
+
+  .xl\:focus\:text-mail-100:focus {
     color: #B23121;
+  }
+
+  .xl\:focus\:text-mail-200:focus {
+    color: #d8412e;
   }
 
   .xl\:focus\:text-gray-100:focus {
