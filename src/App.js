@@ -2,21 +2,24 @@ import React from 'react'
 import './tailwind/index.css';
 import './assets/stylesheets/main.scss'
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
-import Logo from './components/Logo.js'
-import SocialNetwork from './components/SocialNetwork.js'
-import Skills from './containers/Skills.js'
+import Header from './components/Header.js'
+import Illustration from './components/Illustration.js'
+// import SocialNetwork from './components/SocialNetwork.js'
+// import Skills from './containers/Skills.js'
 
-AOS.init({
-  disable: "mobile"
-});
+// AOS.init({
+//   disable: "mobile"
+// });
 
 function App() {
   return (
-    <section className="w-full h-screen flex flex-col justify-between md:justify-center items-center">
-      <Logo />
+    <section className="w-full max-w-6xl pt-16 mx-auto h-screen relative">
+      <Header />
+      <Illustration />
+      {/* <Logo />
       <div className="md:mb-2">
         <Skills />
       </div>
@@ -26,7 +29,7 @@ function App() {
         data-aos-delay="1600"
       >
         <SocialNetwork />
-      </div>
+      </div> */}
     </section>
   );
 }
