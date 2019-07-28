@@ -81,11 +81,19 @@ p + img {
 }
 
 .illustration {
-    width: 100%;
     max-width: 100%;
     height: auto;
     
     position: absolute;
     top: 3.125rem;
-    right: -13.7rem;
+    right: -7.8rem;
+
+    z-index: -1;
+}
+
+.title span {
+    display: inline-block;
+    background-color: $brand-primary;
+    color: $white;
+    transform: translateX(-2rem);
 }
