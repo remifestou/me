@@ -5,13 +5,13 @@ html {
         font-size: 18px;
     }
 
-    @media only screen and (max-width: 640px) {
-        font-size: 12px;
+    @media only screen and (max-width: 800px) {
+        font-size: 14px;
     }
 }
 
 #root {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -77,7 +77,7 @@ p + img {
     
     position: absolute;
     top: 3.125rem;
-    right: -7.8rem;
+    right: -12.1rem;
 
     z-index: -1;
 
@@ -173,6 +173,29 @@ p + img {
     &:hover {
         &::before {
             width: 100%;
+        }
+    }
+}
+
+.keywords {
+    li {
+        position: relative;
+
+        &::before {
+            content: "";
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            transform: translateX(-10%) translateY(50%);
+
+            width: 100%;
+            height: 100%;
+
+            background-color: #F7FAFC;
+            z-index: -1;
+            transition: all .2s linear;
         }
     }
 }
