@@ -10,6 +10,10 @@ html {
     }
 }
 
+#root {
+    overflow: hidden;
+}
+
 body {
     background-color: $background-color;
     font-family: $font-family-base;
@@ -18,19 +22,6 @@ body {
 
     margin: 0;
     padding: 0;
-}
-
-a {
-    color: $link-color;
-
-    &:hover, &.active {
-        color: $brand-primary;
-    }
-}
-
-a:focus {
-  outline: 0;
-  border-color: $link-color;
 }
 
 h1 {
@@ -89,6 +80,16 @@ p + img {
     right: -7.8rem;
 
     z-index: -1;
+
+    @include rwd-max-width(1280px) {
+        top: 10rem;
+        right: -14rem;
+    }
+
+    &.-contact {
+        max-width: 70%;
+        right: -6rem;
+    }
 }
 
 .title span {
@@ -96,4 +97,82 @@ p + img {
     background-color: $brand-primary;
     color: $white;
     transform: translateX(-2rem);
+}
+
+.button {
+    outline: none;
+
+    &.-default {
+        width: auto;
+        height: auto;
+
+        display: inline-block;
+
+        margin-top: 3.75rem;
+        padding: .4rem 2rem;
+
+        border: 2px solid $black;
+        background-color: none;
+
+        font-size: 1rem;
+        font-weight: 700;
+        color: $black;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+
+        position: relative;
+
+        transition: all .2s linear;
+
+        &:hover {
+            &::before {
+                transform: translateX(0) translateY(0);
+                background-color: #EDF2F6;
+            }
+        }
+
+        &::before {
+            content: "";
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            transform: translateX(-.6rem) translateY(50%);
+
+            width: 100%;
+            height: 100%;
+
+            background-color: #F7FAFC;
+            z-index: -1;
+            transition: all .2s linear;
+        }
+    }
+}
+
+.link {
+    position: relative;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        transform: translateX(-10%) translateY(50%);
+
+        width: 0;
+        height: 80%;
+
+        background-color: #F7FAFC;
+        z-index: -1;
+        transition: all .2s linear;
+    }
+
+    &:hover {
+        &::before {
+            width: 100%;
+        }
+    }
 }
