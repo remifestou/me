@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import Header from './components/Header'
 import Index from './pages/Index'
 import Contact from './pages/Contact'
+import Copyright from './components/Copyright'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <Route exact path="/" component={Index} />
         <Route path="/contact" component={Contact} />
+        <Copyright />
       </Router>
     </section>
   );
