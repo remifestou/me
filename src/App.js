@@ -11,7 +11,7 @@ import Copyright from './components/Copyright'
 
 function App() {
   return (
-    <section className="w-full xl:max-w-6xl lg:max-w-4xl md:max-w-3xl pt-16 mx-auto h-screen relative">
+    <section className="ctn-ws w-full xl:max-w-6xl lg:max-w-4xl md:max-w-3xl py-16 mx-auto h-screen relative">
       <Router>
         <Header />
         <Route exact path="/" component={Home} />
