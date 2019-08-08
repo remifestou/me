@@ -1,6 +1,6 @@
 module.exports = {
   prefix: '',
-  important: false,
+  important: true,
   separator: ':',
   theme: {
     screens: {
@@ -187,6 +187,7 @@ module.exports = {
       default: '0.25rem',
       lg: '0.5rem',
       full: '50%',
+      custom: '.5rem',
     },
     borderWidth: {
       default: '1px',
@@ -275,7 +276,8 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
-      '7xl': '6rem',
+      '7xl': '5rem',
+      '40': '2.5rem',
     },
     fontWeight: {
       hairline: '100',
@@ -314,6 +316,7 @@ module.exports = {
       normal: '1.5',
       relaxed: '1.625',
       loose: '2',
+      custom: '5.5rem',
     },
     listStyleType: {
       none: 'none',
