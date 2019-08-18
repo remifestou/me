@@ -3,3 +3,4 @@
 
 # Redirect default Netlify subdomain to primary domain
 http://remifestou.netlify.com/* http://remifestou.me/:splat 301!
+
