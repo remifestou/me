@@ -3,7 +3,8 @@ import NetlifyForm from 'react-netlify-form'
 
 function ContactForm() {
   return (
-    <NetlifyForm name='Contact_Form'>
+    <NetlifyForm name='Contact_Form' data-netlify="true">
+        <input type="hidden" name="form-name" value="Contact_Form" />
         {({ loading, error, success }) => (
             <div>
                 {loading &&
@@ -19,7 +20,7 @@ function ContactForm() {
                 <div className="contact-form w-full max-w-lg mt-24">
                     <div className="flex flex-wrap -mx-3 mb-6">
                         <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                            <label 
+                            <label
                                 className="block uppercase tracking-wide text-black-100 text-xs font-bold mb-2"
                                 htmlFor="grid-first-name">
                                 Prénom
@@ -27,7 +28,7 @@ function ContactForm() {
                             <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-first-name" name="first-name" type="text" placeholder="Jane" />
                         </div>
                         <div className="w-full md:w-1/2 px-3">
-                            <label 
+                            <label
                                 className="block uppercase tracking-wide text-black-100 text-xs font-bold mb-2"
                                 htmlFor="grid-last-name">
                                 Nom
@@ -55,7 +56,7 @@ function ContactForm() {
                             <textarea className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-32" id="grid-password" name="message" placeholder="hey, comment tu vas ..." />
                         </div>
                     </div>
-                    <button 
+                    <button
                         type="submit"
                         className="button -default">
                         Envoyer
