@@ -2,8 +2,8 @@ import React from 'react'
 
 function ContactForm() {
   return (
-    <form name='Contact_Form'>
-        <input type="hidden" name="form-name" value="ContactForm" />
+    <form name='Contact_Form' method="post">
+        <input type="hidden" name="form-name" value="Contact_Form" />
         <div className="contact-form w-full max-w-lg mt-24">
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
