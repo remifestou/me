@@ -1,5 +1,5 @@
 import React from 'react'
-import illustration from '../../assets/images/contact-reverse.svg'
+import illustration from '../../assets/images/contact_mail.svg'
 
 function Illustration() {
     return (
@@ -10,5 +10,5 @@ function Illustration() {
         />
     );
 }
-  
+
 export default Illustration
